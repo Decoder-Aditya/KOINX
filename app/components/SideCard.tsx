@@ -33,7 +33,7 @@ const SideCard = () => {
   }, []);
 
   return (
-    <div className="flex flex-col gap-4 items-center">
+    <div className="flex flex-col gap-y-4 items-center">
       <GetStartedCard />
       <div className="flex flex-col gap-2 w-full md:max-w-[426px] bg-white rounded-md p-3 md:p-6">
         <h2 className="text-[24px] font-medium leading-10">

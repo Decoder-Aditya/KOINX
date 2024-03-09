@@ -5,7 +5,7 @@ import Button from "./Button";
 const GetStartedCard = () => {
   return (
     <div className="flex flex-col justify-center items-center gap-2 bg-[#0052FE] rounded-xl p-8 max-w-[426px]">
-      <div className="flex flex-col-reverse md:justify-between">
+      <div className="flex flex-col-reverse md:flex-col md:justify-between">
         <div className="m-2">
           <h2 className="text-white my-4 text-2xl leading-10 font-semibold text-center md:text-3xl">
             Get Started with KoinX for FREE
@@ -20,7 +20,7 @@ const GetStartedCard = () => {
             src={"/CardDesign.svg"}
             alt="SVG Image"
             width={100}
-            height={100}
+            height={150}
           />
         </div>
       </div>
